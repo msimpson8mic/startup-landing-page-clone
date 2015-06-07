@@ -39,7 +39,7 @@ ol, ul {
  * Start of Custom Styles
  */
 body {
-    background-color: LightGray;
+    /*background-color: LightGray;*/
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
@@ -94,7 +94,7 @@ div {
  * Introduction Section
  */
 .introduction {
-    background-image: url('images/first-background.jpg');
+    background-image: url('../img/first-background.jpg');
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -226,17 +226,21 @@ div {
     }
 }
 
- 
+/* Chrome, Safari, Opera */ 
 @-webkit-keyframes bounce {
     0%, 100% {margin-top: 0px;}
     50% {margin-top: 2rem;}
 }
-
+/* Standard syntax */ 
 @keyframes bounce {
     0%, 100% {margin-top: 0px;}
     50% {margin-top: 2rem;}
 }
 
+
+/**
+ * button
+ */
 button {
     width: 9.688rem;
     background-color: #f15a29;
